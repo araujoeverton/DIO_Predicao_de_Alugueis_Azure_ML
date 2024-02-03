@@ -21,18 +21,31 @@ Para iniciar o projeto será necessário uma conta no Portal da Azure e um grupo
 # Criação do modelo preditivo no Azure Machine Learning
 Utilizaremos para isso o ML automatixado com as seguintes configurações:
 1. Método de treinamento
+   
 1.1 Treinar automaticamente
+
 2. Configurações básicas: dados preenchidos com descrição e tags.
+   
 3. Tipos de dados
+   
 3.1 Selecionar tipo de tarefa: Regressão
+
 3.2 Selecionar os dados: Adicionaremos o link do dataset
+
 4. Configurações de tarefas
+   
 4.1 Coluna de destino: Rentals
+
 4.2 Exibir configurações de definição adicionais: desmarcar caixas e em modelos permitidos, selecionar Random Forest e Light GBM.
+
 5. Limites
+   
 5.1 Tipo de validação: divisão de validação de treinamento; Validação de percentual de dados :15%;
+
 5.2 Dados de teste: divisão de teste de treinamento; Teste percentual de dados: 15%;
+
 6. Computação
+   
 Configuração padrão, prosseguir.
 
 Por fim, enviamos para treinamento.
